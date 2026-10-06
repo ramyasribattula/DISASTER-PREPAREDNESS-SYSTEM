@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replace these with your preferred official channel links when available -->
+    <string-array name="earthquake_videos">
+        <item>https://www.youtube.com/watch?v=dqT1Yb9aJzM</item>
+        <item>https://www.youtube.com/watch?v=Z8i-nw2xYwM</item>
+    </string-array>
+    <string-array name="fire_videos">
+        <item>https://www.youtube.com/watch?v=4WNQ8n3gQ-s</item>
+        <item>https://www.youtube.com/watch?v=J6KcSx1PBBs</item>
+    </string-array>
+    <string-array name="flood_videos">
+        <item>https://www.youtube.com/watch?v=3ZkCwJ3s7lA</item>
+        <item>https://www.youtube.com/watch?v=9z8kB21oVgQ</item>
+    </string-array>
+    <string-array name="cyclone_videos">
+        <item>https://www.youtube.com/watch?v=7zqYb3U1oAA</item>
+        <item>https://www.youtube.com/watch?v=_Qn6y8QmD-8</item>
+    </string-array>
+</resources>
+
+

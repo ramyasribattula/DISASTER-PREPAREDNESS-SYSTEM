@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DisasterManagement" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorTertiary">@color/alert_high</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_dark</item>
+
+        <!-- Typography (can be customized later) -->
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Disaster.Body</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Disaster.Title</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Disaster.Label</item>
+
+        <!-- Force black text across surfaces -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="colorOnBackground">@android:color/black</item>
+        <item name="colorOnSurface">@android:color/black</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+    </style>
+
+    <style name="Theme.DisasterManagement" parent="Base.Theme.DisasterManagement" />
+
+    <!-- Text appearances to control default text colors/sizes -->
+    <style name="TextAppearance.Disaster.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="TextAppearance.Disaster.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Disaster.Label" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>
